@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    @media (min-width: 768px) 
+    {
+        .inpt{
+            height: 100%;
+            
+        }
+        div {
+            max-width: 350px;
+            width: 50%;
+            padding: 3%;
+            }
+    }   
+    @media (max-width: 600px) 
+    {
+        
+        div {
+            max-width: 80%;
+            width: 80%;
+            padding: 8%;
+            }
+    }
+h2{
+    text-align: center;
+    margin-bottom: 10%;
+    text-decoration: solid underline;
+}
+body{
+    background-image: url(bg_resized.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+div{
+    border: 2px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 2px 2px inherit;
+    max-width: 400px;
+    padding:5%; 
+    width: 90%;
+    height: auto;
+}
+.inpt{
+    display: block;
+}
+.inptt{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5%;
+    width: 100%;
+}
+.inptt:hover{
+    background-color: darkgreen;
+}
+.inpt{
+    display: flex;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    height: 30px;
+    width: 100%;
+    border-bottom: 2px solid rgb(3, 54, 78);
+    border-radius: 10px;
+    padding: 10%;
+    position: relative;
+    font-size: 20px;
+}
+.inpt::placeholder{
+    color: rgb(17, 11, 11);
+    font-size: 20px;
+    text-align: center;
+}
+.inpt::placeholder:focus{
+    font-size: 54%;
+}
+.inpt:hover{
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.inpt:focus{
+    border: none;
+
+}
+label{
+    margin-bottom: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.inpte{
+    accent-color: green;
+}
+span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2;
+}
+#link{
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(219, 216, 216);
+}
+#link:hover{
+    color: green;
+}
